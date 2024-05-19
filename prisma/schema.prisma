@@ -27,7 +27,7 @@ model User {
 
 model accountManagement {
   id        Int      @id @default(autoincrement())
-  amountIntended     Int @default(0)
+  amountIntended     Int?
   depositAmount      Int
   fullName       String
   
